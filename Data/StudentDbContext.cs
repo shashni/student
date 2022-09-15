@@ -11,5 +11,6 @@ namespace Student.Data
 
         }
         public virtual DbSet<StudentInfo> StudentInfos { get; set; }
+        public virtual DbSet<Section> Section { get; set; }
     }
 }
